@@ -2,8 +2,8 @@
 //process.stdout.write('\x07);
 
 const timer = () => {
-  const args = ["1", "2", "3"];
-  // const args = process.argv.slice(2);
+  //const args = ["1", "2", "3"];
+  const args = process.argv.slice(2);
   let max = maxTime(args);
   process.stdout.write(max.toString());
 
